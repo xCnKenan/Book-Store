@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #3c4245;
+  --snd-color: #5f6769;
+  --template-color: #719192;
+  --font-color: #eeeeee;
+}
+
+body {
+  background-color: var(--main-color);
+  color: var(--font-color);
+  font-family: "Roboto";
+}

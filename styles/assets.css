@@ -1,0 +1,11 @@
+header img{
+    height: 60px;
+    object-fit: contain;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+footer img{
+    height: 60px;
+    object-fit: contain;
+}

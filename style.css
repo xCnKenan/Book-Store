@@ -1,0 +1,170 @@
+header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--snd-color);
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--snd-color);
+}
+
+footer img {
+  cursor: pointer;
+}
+
+header p {
+  margin-right: 8px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.kc_logo {
+  color: var(--template-color);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.commentType img {
+  width: 24px;
+  object-fit: contain;
+  filter: invert(1);
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.commentType {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.commentType input {
+  border-width: 0px;
+  padding: 0;
+  width: 360px;
+  height: 32px;
+  padding-left: 8px;
+  border: 2px solid var(--template-color);
+  transition: border 0.3s ease;
+  border-radius: 6px 6px 6px 16px;
+
+  &:focus {
+    outline: none;
+    border-color: #005b80;
+  }
+}
+
+.imgSection img {
+  width: 80px;
+  object-fit: contain;
+  transition: all 200ms ease;
+  cursor: default;
+}
+
+.imgSection img:hover {
+  scale: 1.05;
+  transition: all 200ms ease;
+}
+
+.imgSection {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.priceLikeSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.priceTag {
+  font-size: 24px;
+}
+
+.likeSection {
+  display: flex;
+  align-items: center;
+}
+
+.likeSection p {
+  margin-right: 8px;
+}
+
+.notLiked {
+  height: 32px;
+  object-fit: contain;
+  filter: invert(1);
+  cursor: pointer;
+}
+
+.liked {
+  height: 32px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.userTitle {
+  font-weight: bold;
+}
+
+.commentField {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  max-height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.commentField tr {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  transition: all 200ms ease;
+  color: #eeeeee;
+}
+
+.commentSection h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #588d9c;
+  color: #eeeeee;
+}
+
+.commentSection {
+  background-color: #36626a;
+}
+
+.commentField tr:hover {
+  background-color: #719192;
+  transition: all 200ms ease;
+  color: #eeeeee;
+}
+
+.infoBook {
+  margin-right: 8px;
+  margin-left: 8px;
+}
