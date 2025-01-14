@@ -1,0 +1,93 @@
+@media (max-width:500px){
+    .template{
+        height: 560px;
+        width: 320px;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+
+    h2{
+        font-size: 1.2em;
+    }
+
+    .infoBook tr{
+        font-size: 14px;
+    }
+
+    .commentField tr{
+        font-size: 14px;
+    }
+    
+    .likeSection{
+        font-size: 14px;
+    }
+
+    .priceTag{
+        font-size: 18px;
+    }
+
+    .notLiked{
+        height: 24px;
+    }
+    
+    .liked{
+        height: 24px;
+    }
+
+    .imgSection img {
+        width: 64px;
+    } 
+
+    .commentType input{
+        width: 280px;
+    }
+}
+
+@media (max-width:375px){
+    .template{
+        height: 500px;
+        width: 300px;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+
+    h2{
+        font-size: 1.2em;
+    }
+
+    .infoBook tr{
+        font-size: 14px;
+    }
+
+    .commentField tr{
+        font-size: 14px;
+    }
+    
+    .likeSection{
+        font-size: 14px;
+    }
+
+    .priceTag{
+        font-size: 18px;
+    }
+
+    .notLiked{
+        height: 24px;
+    }
+    
+    .liked{
+        height: 24px;
+    }
+
+    .imgSection img {
+        width: 64px;
+    } 
+
+    .commentType input{
+        width: 260px;
+    }
+}
