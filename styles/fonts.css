@@ -3,6 +3,11 @@
   src: url('../fonts/roboto-v32-latin-regular.woff2') format('woff2'); 
 }
 
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('../fonts/dancing-script-v25-latin-regular.woff2') format('woff2');
+}
+
 h1{
   font-size: 36px;
   margin-block-start: 0;
@@ -11,4 +16,5 @@ h1{
   margin-right: 8px;
   margin-left: 8px;
   margin-top: 8px;
+  font-family: 'Dancing Script', sans-serif;
 }

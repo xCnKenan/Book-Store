@@ -14,6 +14,7 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: var(--snd-color);
+  margin-top: auto;
 }
 
 footer img {
@@ -125,17 +126,12 @@ header p {
 .commentField {
   overflow-x: hidden;
   overflow-y: scroll;
-  max-height: 250px;
+  max-height: 200px;
   display: flex;
   flex-direction: column;
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
-}
+
 
 .commentField tr {
   display: flex;
@@ -167,4 +163,11 @@ header p {
 .infoBook {
   margin-right: 8px;
   margin-left: 8px;
+}
+
+.fullScreen{
+  display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 16px;
 }

@@ -13,5 +13,8 @@
 body {
   background-color: var(--main-color);
   color: var(--font-color);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
+  display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }

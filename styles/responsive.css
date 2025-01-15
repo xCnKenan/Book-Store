@@ -91,3 +91,22 @@
         width: 260px;
     }
 }
+
+@media (min-width:1921px){
+    .content{
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 1920px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .fullScreen{
+        width: 1920px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+}
+}
